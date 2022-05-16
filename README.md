@@ -27,3 +27,9 @@ I chose this topic because I have a love of movies and I would like to see if I 
    - Genre feature analysis
    - General trend analysis
 - Part 3: Predictive and Comparison Modeling
+   - Split into test/train sets
+   - BestRandomForestClassifer
+   - EasyEnsembleClassifer
+   - Deep Learning Module
+   - Linear/Random Forest Regression
+   - Logistic/Random Forest Regression
