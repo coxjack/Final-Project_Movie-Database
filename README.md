@@ -12,6 +12,9 @@ I chose this topic because I have a love of movies and I would like to see if I 
 - Part 1: Data Preprocessing
    - Read Dataset
    - Define target variables
+
+![targetvariables]()
+
    - Remove null, unwanted, infinite values
    - Feature Engineering
         - Encode genre column
@@ -33,3 +36,5 @@ I chose this topic because I have a love of movies and I would like to see if I 
    - Deep Learning Module
    - Linear/Random Forest Regression
    - Logistic/Random Forest Regression
+   - Optimized Linear/Random Forest Regression
+   - Optimized Logistic/Random Forest Regression
