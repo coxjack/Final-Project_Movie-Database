@@ -40,7 +40,7 @@ Link to Dataset => https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
 
    - Correlation Analysis
 
-![correlation](https://github.com/coxjack/Final-Project_Movie-Database/blob/main/Supporting%20Images/StatisticalAnalysis.png)
+![correlation](https://github.com/coxjack/Final-Project_Movie-Database/blob/main/Supporting%20Images/CorrelationAnalysis.png)
 
    - Regression Target Analysis
 
