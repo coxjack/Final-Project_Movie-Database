@@ -1,0 +1,1295 @@
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+  <head>
+    
+    <script src='http://code.jquery.com/jquery-1.9.1.min.js' type='text/javascript'></script>
+    <script src='http://code.highcharts.com/highcharts.js' type='text/javascript'></script>
+    <script src='http://code.highcharts.com/highcharts-more.js' type='text/javascript'></script>
+    
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 595px;
+      height: 500px;
+    }  
+    </style>
+    
+  </head>
+  <body>
+    <div id='chart98fcf98663d' class='rChart highcharts'></div>  
+    
+    <script type='text/javascript'>
+    (function($){
+        $(function () {
+            var chart = new Highcharts.Chart({
+ "dom": "chart98fcf98663d",
+"width":    595,
+"height":    500,
+"credits": {
+ "text": "Source: budgets, profits & ,ratings score TMDB Dataset -- Kaggle & poster images from Rotten Tomatoes API" 
+},
+"title": {
+ "text": "Modern Movies: rating vs profitability" 
+},
+"yAxis": {
+ "title": {
+ "text": "log10 % profitability" 
+},
+"labels": {
+ "format": "{value}" 
+} 
+},
+"series": [
+ {
+ "data": [
+ {
+ "x": 76.838,
+"y": 2.4765,
+"z": 1.5e+08,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Thor</th></tr><tr><td><img src='http://content8.flixster.com/movie/11/15/45/11154550_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   300 %<br>Critics score: 77<br>Audience score: 76<br>Budget: $150 million<br>Worldwide gross: $  449'326'618<br>Genres: Drama<br>&emsp;Action & Adventure<br>&emsp;Science Fiction & Fantasy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/thor/",
+"category": "Certified Fresh",
+"budget": 1.5e+08 
+},
+{
+ "x": 79.896,
+"y": 2.2331,
+"z": 1.2e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Young Adult</th></tr><tr><td><img src='http://instart2.flixster.com/movie/11/16/89/11168982_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   171 %<br>Critics score: 80<br>Audience score: 50<br>Budget: $12 million<br>Worldwide gross: $   20'511'571<br>Genres: Drama<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/young_adult/",
+"category": "Certified Fresh",
+"budget": 1.2e+07 
+},
+{
+ "x": 84.029,
+"y": 1.2444,
+"z":  1e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>A Better Life</th></tr><tr><td><img src='http://instart0.flixster.com/movie/11/15/57/11155720_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:    18 %<br>Critics score: 84<br>Audience score: 78<br>Budget: $10 million<br>Worldwide gross: $    1'766'372<br>Genres: Drama<br>&emsp;Special Interest</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/a_better_life/",
+"category": "Certified Fresh",
+"budget":  1e+07 
+},
+{
+ "x": 93.946,
+"y": 0.95538,
+"z":  1e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Coriolanus</th></tr><tr><td><img src='http://instart2.flixster.com/movie/11/15/94/11159402_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:     9 %<br>Critics score: 94<br>Audience score: 58<br>Budget: $10 million<br>Worldwide gross: $      899'800<br>Genres: Mystery & Suspense<br>&emsp;Drama</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/coriolanus_2010/",
+"category": "Certified Fresh",
+"budget":  1e+07 
+},
+{
+ "x": 77.156,
+"y": 2.2833,
+"z": 9.4e+06,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Melancholia</th></tr><tr><td><img src='http://instart1.flixster.com/movie/11/16/13/11161333_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   192 %<br>Critics score: 77<br>Audience score: 67<br>Budget: $9.4 million<br>Worldwide gross: $   18'044'073<br>Genres: Drama<br>&emsp;Art House & International<br>&emsp;Mystery & Suspense<br>&emsp;Science Fiction & Fantasy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/melancholia-2008/",
+"category": "Certified Fresh",
+"budget": 9.4e+06 
+},
+{
+ "x": 92.944,
+"y": 2.6903,
+"z":  8e+06,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>50/50</th></tr><tr><td><img src='http://content8.flixster.com/movie/11/15/86/11158694_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   490 %<br>Critics score: 93<br>Audience score: 88<br>Budget: $8 million<br>Worldwide gross: $   39'216'118<br>Genres: Drama<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/5050_2011/",
+"category": "Certified Fresh",
+"budget":  8e+06 
+},
+{
+ "x": 74.115,
+"y": 2.4244,
+"z":  6e+06,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Rise of the Guardians</th></tr><tr><td><img src='http://content7.flixster.com/movie/11/17/02/11170261_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   266 %<br>Critics score: 74<br>Audience score: 81<br>Budget: $6 million<br>Worldwide gross: $   15'944'629<br>Genres: Action & Adventure<br>&emsp;Animation<br>&emsp;Kids & Family</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/rise_of_the_guardians_2012/",
+"category": "Certified Fresh",
+"budget":  6e+06 
+},
+{
+ "x":   98.8,
+"y": 2.0492,
+"z": 5.5e+06,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Le Havre</th></tr><tr><td><img src='http://content7.flixster.com/movie/11/16/09/11160901_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   112 %<br>Critics score: 99<br>Audience score: 74<br>Budget: $5.5 million<br>Worldwide gross: $    6'168'515<br>Genres: Drama<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/le_havre_2011/",
+"category": "Certified Fresh",
+"budget": 5.5e+06 
+},
+{
+ "x": 92.949,
+"y": 2.9258,
+"z":  5e+06,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Of Gods and Men</th></tr><tr><td><img src='http://content7.flixster.com/movie/11/15/53/11155377_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   843 %<br>Critics score: 93<br>Audience score: 75<br>Budget: $5 million<br>Worldwide gross: $   42'151'322<br>Genres: Art House & International<br>&emsp;Drama</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/of_gods_and_men/",
+"category": "Certified Fresh",
+"budget":  5e+06 
+},
+{
+ "x": 80.905,
+"y": 2.6473,
+"z": 1.5e+08,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Kung Fu Panda 2</th></tr><tr><td><img src='http://content7.flixster.com/movie/11/15/66/11156693_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   444 %<br>Critics score: 81<br>Audience score: 74<br>Budget: $150 million<br>Worldwide gross: $  665'613'515<br>Genres: Action & Adventure<br>&emsp;Animation<br>&emsp;Kids & Family<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/kung_fu_panda_the_kaboom_of_doom/",
+"category": "Certified Fresh",
+"budget": 1.5e+08 
+},
+{
+ "x": 91.952,
+"y":   1.82,
+"z": 4.75e+06,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Take Shelter</th></tr><tr><td><img src='http://content8.flixster.com/movie/11/15/89/11158902_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:    66 %<br>Critics score: 92<br>Audience score: 81<br>Budget: $4.75 million<br>Worldwide gross: $    3'128'953<br>Genres: Mystery & Suspense<br>&emsp;Drama</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/take_shelter/",
+"category": "Certified Fresh",
+"budget": 4.75e+06 
+},
+{
+ "x": 75.121,
+"y":  2.304,
+"z": 4.6e+06,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>The Names of Love</th></tr><tr><td><img src='http://instart1.flixster.com/movie/11/15/82/11158245_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   201 %<br>Critics score: 75<br>Audience score: 80<br>Budget: $4.6 million<br>Worldwide gross: $    9'261'711<br>Genres: Art House & International<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/the_names_of_love/",
+"category": "Certified Fresh",
+"budget": 4.6e+06 
+},
+{
+ "x": 88.143,
+"y":  2.571,
+"z": 3.4e+06,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Margin Call</th></tr><tr><td><img src='http://content9.flixster.com/movie/11/16/04/11160411_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   372 %<br>Critics score: 88<br>Audience score: 74<br>Budget: $3.4 million<br>Worldwide gross: $   12'653'586<br>Genres: Mystery & Suspense</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/margin_call/",
+"category": "Certified Fresh",
+"budget": 3.4e+06 
+},
+{
+ "x": 83.855,
+"y":  2.505,
+"z": 3.2e+06,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Beginners</th></tr><tr><td><img src='http://instart2.flixster.com/movie/11/15/73/11157346_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   320 %<br>Critics score: 84<br>Audience score: 77<br>Budget: $3.2 million<br>Worldwide gross: $   10'241'757<br>Genres: Drama<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/beginners/",
+"category": "Certified Fresh",
+"budget": 3.2e+06 
+},
+{
+ "x": 86.174,
+"y": 1.7781,
+"z":  2e+06,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Meek's Cutoff</th></tr><tr><td><img src='http://instart0.flixster.com/movie/11/15/57/11155788_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:    60 %<br>Critics score: 86<br>Audience score: 53<br>Budget: $2 million<br>Worldwide gross: $    1'198'560<br>Genres: Western<br>&emsp;Drama</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/meeks_cutoff/",
+"category": "Certified Fresh",
+"budget":  2e+06 
+},
+{
+ "x": 80.977,
+"y": 1.6769,
+"z": 1.8e+06,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Higher Ground</th></tr><tr><td><img src='http://instart0.flixster.com/movie/11/15/86/11158696_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:    47 %<br>Critics score: 81<br>Audience score: 64<br>Budget: $1.8 million<br>Worldwide gross: $      853'831<br>Genres: Drama</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/higher_ground_2011/",
+"category": "Certified Fresh",
+"budget": 1.8e+06 
+},
+{
+ "x": 76.071,
+"y": 1.3215,
+"z":  8e+05,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Kill List</th></tr><tr><td><img src='http://instart2.flixster.com/movie/11/16/33/11163362_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:    21 %<br>Critics score: 76<br>Audience score: 57<br>Budget: $0.8 million<br>Worldwide gross: $      169'063<br>Genres: Mystery & Suspense<br>&emsp;Horror</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/kill_list_2011/",
+"category": "Certified Fresh",
+"budget":  8e+05 
+},
+{
+ "x": 92.866,
+"y":  2.679,
+"z": 1.45e+08,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Mission: Impossible Ghost Protocol</th></tr><tr><td><img src='http://content6.flixster.com/movie/11/16/91/11169152_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   477 %<br>Critics score: 93<br>Audience score: 76<br>Budget: $145 million<br>Worldwide gross: $  692'350'715<br>Genres: Mystery & Suspense<br>&emsp;Action & Adventure</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/mission_impossible_ghost_protocol/",
+"category": "Certified Fresh",
+"budget": 1.45e+08 
+},
+{
+ "x": 72.035,
+"y": 3.1517,
+"z": 2.5e+05,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Like Crazy</th></tr><tr><td><img src='http://instart3.flixster.com/movie/11/16/91/11169147_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:  1418 %<br>Critics score: 72<br>Audience score: 62<br>Budget: $0.25 million<br>Worldwide gross: $    3'545'391<br>Genres: Drama<br>&emsp;Romance</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/like_crazy/",
+"category": "Certified Fresh",
+"budget": 2.5e+05 
+},
+{
+ "x": 78.923,
+"y": 2.4206,
+"z": 1.4e+08,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Captain America: The First Avenger</th></tr><tr><td><img src='http://instart3.flixster.com/movie/11/15/83/11158339_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   263 %<br>Critics score: 79<br>Audience score: 72<br>Budget: $140 million<br>Worldwide gross: $  368'604'473<br>Genres: Mystery & Suspense<br>&emsp;Action & Adventure</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/captain-america/",
+"category": "Certified Fresh",
+"budget": 1.4e+08 
+},
+{
+ "x": 87.849,
+"y": 2.2593,
+"z": 1.35e+08,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Rango</th></tr><tr><td><img src='http://content6.flixster.com/movie/11/16/89/11168964_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   182 %<br>Critics score: 88<br>Audience score: 69<br>Budget: $135 million<br>Worldwide gross: $  245'504'162<br>Genres: Action & Adventure<br>&emsp;Animation<br>&emsp;Kids & Family</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/rango/",
+"category": "Certified Fresh",
+"budget": 1.35e+08 
+},
+{
+ "x": 84.066,
+"y": 2.6255,
+"z": 1.3e+08,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Puss in Boots</th></tr><tr><td><img src='http://instart1.flixster.com/movie/11/16/91/11169149_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   422 %<br>Critics score: 84<br>Audience score: 68<br>Budget: $130 million<br>Worldwide gross: $  548'960'504<br>Genres: Action & Adventure<br>&emsp;Animation<br>&emsp;Kids & Family<br>&emsp;Science Fiction & Fantasy<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/1209933-puss_in_boots/",
+"category": "Certified Fresh",
+"budget": 1.3e+08 
+},
+{
+ "x": 74.953,
+"y": 2.4591,
+"z": 1.3e+08,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>The Adventures of Tintin</th></tr><tr><td><img src='http://instart1.flixster.com/movie/11/16/91/11169145_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   288 %<br>Critics score: 75<br>Audience score: 74<br>Budget: $130 million<br>Worldwide gross: $  373'993'951<br>Genres: Action & Adventure<br>&emsp;Animation<br>&emsp;Kids & Family</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/the_adventures_of_tintin/",
+"category": "Certified Fresh",
+"budget": 1.3e+08 
+},
+{
+ "x": 95.996,
+"y": 3.0264,
+"z": 1.25e+08,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Harry Potter and the Deathly Hallows - Part 2</th></tr><tr><td><img src='http://content9.flixster.com/movie/11/16/36/11163675_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:  1062 %<br>Critics score: 96<br>Audience score: 87<br>Budget: $125 million<br>Worldwide gross: $1'328'111'219<br>Genres: Drama<br>&emsp;Action & Adventure<br>&emsp;Kids & Family<br>&emsp;Mystery & Suspense<br>&emsp;Science Fiction & Fantasy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/harry_potter_and_the_deathly_hallows_part_2_2011/",
+"category": "Certified Fresh",
+"budget": 1.25e+08 
+},
+{
+ "x": 76.964,
+"y": 2.7014,
+"z": 1.25e+08,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Fast Five</th></tr><tr><td><img src='http://instart3.flixster.com/movie/11/15/70/11157071_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   503 %<br>Critics score: 77<br>Audience score: 82<br>Budget: $125 million<br>Worldwide gross: $  628'566'239<br>Genres: Drama<br>&emsp;Action & Adventure<br>&emsp;Mystery & Suspense</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/fast_five/",
+"category": "Certified Fresh",
+"budget": 1.25e+08 
+},
+{
+ "x": 81.821,
+"y": 2.7155,
+"z": 9.3e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Rise of the Planet of the Apes</th></tr><tr><td><img src='http://instart0.flixster.com/movie/11/15/84/11158476_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   519 %<br>Critics score: 82<br>Audience score: 77<br>Budget: $93 million<br>Worldwide gross: $  482'860'185<br>Genres: Drama<br>&emsp;Action & Adventure<br>&emsp;Science Fiction & Fantasy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/rise_of_the_planet_of_the_apes/",
+"category": "Certified Fresh",
+"budget": 9.3e+07 
+},
+{
+ "x": 86.006,
+"y": 2.4068,
+"z":  9e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>The Girl with the Dragon Tattoo</th></tr><tr><td><img src='http://content8.flixster.com/movie/11/16/39/11163974_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   255 %<br>Critics score: 86<br>Audience score: 86<br>Budget: $90 million<br>Worldwide gross: $  229'654'676<br>Genres: Mystery & Suspense<br>&emsp;Drama</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/the_girl_with_the_dragon_tattoo/",
+"category": "Certified Fresh",
+"budget":  9e+07 
+},
+{
+ "x": 91.023,
+"y": 2.2393,
+"z": 8.5e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Arthur Christmas</th></tr><tr><td><img src='http://content6.flixster.com/movie/11/16/74/11167404_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   174 %<br>Critics score: 91<br>Audience score: 77<br>Budget: $85 million<br>Worldwide gross: $  147'621'641<br>Genres: Animation<br>&emsp;Kids & Family<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/arthur_christmas/",
+"category": "Certified Fresh",
+"budget": 8.5e+07 
+},
+{
+ "x": 77.112,
+"y": 2.2832,
+"z":  7e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>War Horse</th></tr><tr><td><img src='http://instart0.flixster.com/movie/11/16/06/11160680_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   192 %<br>Critics score: 77<br>Audience score: 73<br>Budget: $70 million<br>Worldwide gross: $  134'481'907<br>Genres: Drama<br>&emsp;Action & Adventure</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/war_horse/",
+"category": "Certified Fresh",
+"budget":  7e+07 
+},
+{
+ "x": 78.174,
+"y": 2.4723,
+"z":  5e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Crazy, Stupid, Love.</th></tr><tr><td><img src='http://instart2.flixster.com/movie/11/16/36/11163666_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   297 %<br>Critics score: 78<br>Audience score: 77<br>Budget: $50 million<br>Worldwide gross: $  148'351'197<br>Genres: Drama<br>&emsp;Romance<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/771203531/",
+"category": "Certified Fresh",
+"budget":  5e+07 
+},
+{
+ "x": 93.821,
+"y": 2.3443,
+"z":  5e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Moneyball</th></tr><tr><td><img src='http://content6.flixster.com/movie/11/16/36/11163656_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   221 %<br>Critics score: 94<br>Audience score: 86<br>Budget: $50 million<br>Worldwide gross: $  110'563'252<br>Genres: Drama<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/moneyball/",
+"category": "Certified Fresh",
+"budget":  5e+07 
+},
+{
+ "x":  81.89,
+"y": 2.7159,
+"z":  5e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Super 8</th></tr><tr><td><img src='http://instart3.flixster.com/movie/11/15/62/11156231_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   520 %<br>Critics score: 82<br>Audience score: 75<br>Budget: $50 million<br>Worldwide gross: $  259'941'591<br>Genres: Action & Adventure<br>&emsp;Science Fiction & Fantasy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/super_8/",
+"category": "Certified Fresh",
+"budget":  5e+07 
+},
+{
+ "x": 95.905,
+"y": 2.5165,
+"z": 4.5e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>The Muppets</th></tr><tr><td><img src='http://content8.flixster.com/movie/11/15/92/11159214_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   328 %<br>Critics score: 96<br>Audience score: 81<br>Budget: $45 million<br>Worldwide gross: $  147'725'922<br>Genres: Comedy<br>&emsp;Kids & Family</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/the_muppets/",
+"category": "Certified Fresh",
+"budget": 4.5e+07 
+},
+{
+ "x": 82.861,
+"y": 2.3303,
+"z":  4e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>The Lincoln Lawyer</th></tr><tr><td><img src='http://instart2.flixster.com/movie/11/15/45/11154542_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   214 %<br>Critics score: 83<br>Audience score: 81<br>Budget: $40 million<br>Worldwide gross: $   85'507'593<br>Genres: Drama<br>&emsp;Horror<br>&emsp;Mystery & Suspense</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/lincoln_lawyer/",
+"category": "Certified Fresh",
+"budget":  4e+07 
+},
+{
+ "x": 82.133,
+"y": 2.3715,
+"z": 3.7e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Dolphin Tale</th></tr><tr><td><img src='http://content9.flixster.com/movie/11/16/36/11163667_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   235 %<br>Critics score: 82<br>Audience score: 80<br>Budget: $37 million<br>Worldwide gross: $   87'043'984<br>Genres: Drama<br>&emsp;Kids & Family</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/dolphin_tale/",
+"category": "Certified Fresh",
+"budget": 3.7e+07 
+},
+{
+ "x": 84.044,
+"y": 2.2507,
+"z": 3.5e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>The Tree of Life</th></tr><tr><td><img src='http://instart0.flixster.com/movie/11/15/72/11157220_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   178 %<br>Critics score: 84<br>Audience score: 59<br>Budget: $35 million<br>Worldwide gross: $   62'305'665<br>Genres: Drama<br>&emsp;Action & Adventure<br>&emsp;Science Fiction & Fantasy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/the_tree_of_life_2011/",
+"category": "Certified Fresh",
+"budget": 3.5e+07 
+},
+{
+ "x": 89.854,
+"y": 2.9486,
+"z": 3.25e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Bridesmaids</th></tr><tr><td><img src='http://instart3.flixster.com/movie/11/17/12/11171279_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   888 %<br>Critics score: 90<br>Audience score: 75<br>Budget: $32.5 million<br>Worldwide gross: $  288'678'914<br>Genres: Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/bridesmaids_2011/",
+"category": "Certified Fresh",
+"budget": 3.25e+07 
+},
+{
+ "x": 72.141,
+"y": 2.0924,
+"z":  3e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Fright Night</th></tr><tr><td><img src='http://instart1.flixster.com/movie/11/15/75/11157537_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   124 %<br>Critics score: 72<br>Audience score: 59<br>Budget: $30 million<br>Worldwide gross: $   37'098'649<br>Genres: Horror<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/fright_night-2011/",
+"category": "Certified Fresh",
+"budget":  3e+07 
+},
+{
+ "x": 92.986,
+"y": 2.7127,
+"z":  3e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Midnight in Paris</th></tr><tr><td><img src='http://content7.flixster.com/movie/11/15/65/11156581_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   516 %<br>Critics score: 93<br>Audience score: 82<br>Budget: $30 million<br>Worldwide gross: $  154'816'662<br>Genres: Comedy<br>&emsp;Romance</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/midnight_in_paris/",
+"category": "Certified Fresh",
+"budget":  3e+07 
+},
+{
+ "x": 87.124,
+"y": 2.3464,
+"z": 1.6e+08,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>X-Men: First Class</th></tr><tr><td><img src='http://instart1.flixster.com/movie/11/15/79/11157925_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   222 %<br>Critics score: 87<br>Audience score: 87<br>Budget: $160 million<br>Worldwide gross: $  355'408'305<br>Genres: Drama<br>&emsp;Action & Adventure<br>&emsp;Science Fiction & Fantasy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/x_men_first_class/",
+"category": "Certified Fresh",
+"budget": 1.6e+08 
+},
+{
+ "x": 89.891,
+"y": 2.0847,
+"z":  3e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Winnie the Pooh</th></tr><tr><td><img src='http://instart0.flixster.com/movie/11/15/59/11155908_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   121 %<br>Critics score: 90<br>Audience score: 78<br>Budget: $30 million<br>Worldwide gross: $   36'439'948<br>Genres: Animation<br>&emsp;Kids & Family</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/winnie_the_pooh_2011/",
+"category": "Certified Fresh",
+"budget":  3e+07 
+},
+{
+ "x": 77.152,
+"y": 2.9211,
+"z": 2.5e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>The Help</th></tr><tr><td><img src='http://instart3.flixster.com/movie/11/15/70/11157055_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   834 %<br>Critics score: 77<br>Audience score: 89<br>Budget: $25 million<br>Worldwide gross: $  208'505'587<br>Genres: Drama</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/the_help/",
+"category": "Certified Fresh",
+"budget": 2.5e+07 
+},
+{
+ "x": 78.815,
+"y": 2.3319,
+"z": 2.5e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>The Grey</th></tr><tr><td><img src='http://content6.flixster.com/movie/11/16/45/11164556_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   215 %<br>Critics score: 79<br>Audience score: 61<br>Budget: $25 million<br>Worldwide gross: $   53'681'759<br>Genres: Drama<br>&emsp;Action & Adventure</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/the_grey_2012/",
+"category": "Certified Fresh",
+"budget": 2.5e+07 
+},
+{
+ "x": 94.197,
+"y": 1.9807,
+"z": 1.55e+08,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Hugo</th></tr><tr><td><img src='http://content6.flixster.com/movie/11/16/89/11168948_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:    96 %<br>Critics score: 94<br>Audience score: 78<br>Budget: $155 million<br>Worldwide gross: $  148'501'137<br>Genres: Mystery & Suspense<br>&emsp;Kids & Family</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/hugo/",
+"category": "Certified Fresh",
+"budget": 1.55e+08 
+},
+{
+ "x": 82.967,
+"y": 1.9641,
+"z": 2.5e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Warrior</th></tr><tr><td><img src='http://content7.flixster.com/movie/11/15/83/11158301_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:    92 %<br>Critics score: 83<br>Audience score: 91<br>Budget: $25 million<br>Worldwide gross: $   23'057'115<br>Genres: Drama<br>&emsp;Action & Adventure</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/1212910-warrior/",
+"category": "Certified Fresh",
+"budget": 2.5e+07 
+},
+{
+ "x": 84.884,
+"y": 2.3777,
+"z": 2.3e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>The Ides of March</th></tr><tr><td><img src='http://instart1.flixster.com/movie/11/16/37/11163769_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   239 %<br>Critics score: 85<br>Audience score: 73<br>Budget: $23 million<br>Worldwide gross: $   54'922'340<br>Genres: Mystery & Suspense<br>&emsp;Drama</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/the_ides_of_march/",
+"category": "Certified Fresh",
+"budget": 2.3e+07 
+},
+{
+ "x":  77.93,
+"y": 1.8678,
+"z":  2e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>A Dangerous Method</th></tr><tr><td><img src='http://instart0.flixster.com/movie/11/16/10/11161096_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:    74 %<br>Critics score: 78<br>Audience score: 50<br>Budget: $20 million<br>Worldwide gross: $   14'779'055<br>Genres: Mystery & Suspense<br>&emsp;Drama</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/a_dangerous_method/",
+"category": "Certified Fresh",
+"budget":  2e+07 
+},
+{
+ "x": 98.048,
+"y": 2.7722,
+"z": 1.6e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>The Artist</th></tr><tr><td><img src='http://instart3.flixster.com/movie/11/16/56/11165667_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   592 %<br>Critics score: 98<br>Audience score: 88<br>Budget: $16 million<br>Worldwide gross: $   94'657'773<br>Genres: Drama<br>&emsp;Romance<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/the_artist/",
+"category": "Certified Fresh",
+"budget": 1.6e+07 
+},
+{
+ "x": 93.104,
+"y": 2.6461,
+"z": 1.5e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Drive</th></tr><tr><td><img src='http://instart1.flixster.com/movie/11/16/36/11163653_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   443 %<br>Critics score: 93<br>Audience score: 78<br>Budget: $15 million<br>Worldwide gross: $   66'387'433<br>Genres: Drama<br>&emsp;Action & Adventure<br>&emsp;Mystery & Suspense</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/drive_2011/",
+"category": "Certified Fresh",
+"budget": 1.5e+07 
+},
+{
+ "x": 89.953,
+"y": 1.6177,
+"z": 1.3e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Attack the Block</th></tr><tr><td><img src='http://instart1.flixster.com/movie/11/15/70/11157065_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:    42 %<br>Critics score: 90<br>Audience score: 73<br>Budget: $13 million<br>Worldwide gross: $    5'406'422<br>Genres: Art House & International<br>&emsp;Action & Adventure</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/attack_the_block/",
+"category": "Certified Fresh",
+"budget": 1.3e+07 
+} 
+],
+"type": "bubble",
+"name": "Certified Fresh" 
+},
+{
+ "data": [
+ {
+ "x": 63.918,
+"y": 2.8819,
+"z": 1.3e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Justin Bieber: Never Say Never</th></tr><tr><td><img src='http://instart3.flixster.com/movie/11/15/54/11155447_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   762 %<br>Critics score: 64<br>Audience score: 64<br>Budget: $13 million<br>Worldwide gross: $   99'034'125<br>Genres: Documentary<br>&emsp;Drama<br>&emsp;Musical & Performing Arts</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/justin_bieber_never_say_never/",
+"category": "Fresh",
+"budget": 1.3e+07 
+},
+{
+ "x": 60.015,
+"y": 2.2874,
+"z":  9e+06,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Glee: The 3D Concert Movie</th></tr><tr><td><img src='http://content6.flixster.com/movie/11/15/93/11159304_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   194 %<br>Critics score: 60<br>Audience score: 64<br>Budget: $9 million<br>Worldwide gross: $   17'462'398<br>Genres: Documentary<br>&emsp;Musical & Performing Arts<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/glee_the_3d_concert_movie/",
+"category": "Fresh",
+"budget":  9e+06 
+},
+{
+ "x": 67.851,
+"y": 3.6055,
+"z":  5e+06,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Paranormal Activity 3</th></tr><tr><td><img src='http://instart1.flixster.com/movie/11/16/05/11160565_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:  4031 %<br>Critics score: 68<br>Audience score: 52<br>Budget: $5 million<br>Worldwide gross: $  201'571'178<br>Genres: Mystery & Suspense<br>&emsp;Horror</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/paranormal_activity_3/",
+"category": "Fresh",
+"budget":  5e+06 
+},
+{
+ "x": 65.876,
+"y": 3.8107,
+"z": 1.5e+06,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Insidious</th></tr><tr><td><img src='http://instart3.flixster.com/movie/11/16/94/11169443_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:  6467 %<br>Critics score: 66<br>Audience score: 61<br>Budget: $1.5 million<br>Worldwide gross: $   97'009'150<br>Genres: Horror</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/insidious/",
+"category": "Fresh",
+"budget": 1.5e+06 
+},
+{
+ "x": 71.041,
+"y": 3.0121,
+"z": 7.5e+05,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Kevin Hart: Laugh At My Pain</th></tr><tr><td><img src='http://instart0.flixster.com/movie/11/15/93/11159320_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:  1028 %<br>Critics score: 71<br>Audience score: 84<br>Budget: $0.75 million<br>Worldwide gross: $    7'712'436<br>Genres: Musical & Performing Arts<br>&emsp;Comedy<br>&emsp;Special Interest</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/kevin_hart_laugh_at_my_pain/",
+"category": "Fresh",
+"budget": 7.5e+05 
+},
+{
+ "x": 63.892,
+"y": 3.0077,
+"z": 1.75e+05,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Another Earth</th></tr><tr><td><img src='http://instart3.flixster.com/movie/11/15/74/11157439_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:  1018 %<br>Critics score: 64<br>Audience score: 66<br>Budget: $0.175 million<br>Worldwide gross: $    1'781'194<br>Genres: Drama</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/another_earth/",
+"category": "Fresh",
+"budget": 1.75e+05 
+},
+{
+ "x": 59.846,
+"y":  2.393,
+"z": 1.1e+08,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Real Steel</th></tr><tr><td><img src='http://instart1.flixster.com/movie/11/16/02/11160273_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   247 %<br>Critics score: 60<br>Audience score: 73<br>Budget: $110 million<br>Worldwide gross: $  271'663'309<br>Genres: Drama<br>&emsp;Action & Adventure<br>&emsp;Science Fiction & Fantasy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/real_steel/",
+"category": "Fresh",
+"budget": 1.1e+08 
+},
+{
+ "x": 71.847,
+"y": 2.7339,
+"z":  9e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Rio</th></tr><tr><td><img src='http://content9.flixster.com/movie/11/15/67/11156759_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   542 %<br>Critics score: 72<br>Audience score: 71<br>Budget: $90 million<br>Worldwide gross: $  487'519'809<br>Genres: Action & Adventure<br>&emsp;Animation<br>&emsp;Kids & Family<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/rio/",
+"category": "Fresh",
+"budget":  9e+07 
+},
+{
+ "x": 68.197,
+"y": 2.2426,
+"z": 8.5e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Tower Heist</th></tr><tr><td><img src='http://content8.flixster.com/movie/11/16/37/11163778_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   175 %<br>Critics score: 68<br>Audience score: 50<br>Budget: $85 million<br>Worldwide gross: $  148'746'570<br>Genres: Drama<br>&emsp;Action & Adventure<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/tower_heist/",
+"category": "Fresh",
+"budget": 8.5e+07 
+},
+{
+ "x": 70.861,
+"y": 2.3975,
+"z":  4e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Paul</th></tr><tr><td><img src='http://instart1.flixster.com/movie/11/15/42/11154277_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   250 %<br>Critics score: 71<br>Audience score: 62<br>Budget: $40 million<br>Worldwide gross: $   99'849'432<br>Genres: Art House & International<br>&emsp;Science Fiction & Fantasy<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/paul/",
+"category": "Fresh",
+"budget":  4e+07 
+},
+{
+ "x": 61.023,
+"y":  2.584,
+"z":  4e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Final Destination 5</th></tr><tr><td><img src='http://instart0.flixster.com/movie/11/16/36/11163668_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   384 %<br>Critics score: 61<br>Audience score: 52<br>Budget: $40 million<br>Worldwide gross: $  153'530'346<br>Genres: Horror</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/final_destination_5/",
+"category": "Fresh",
+"budget":  4e+07 
+},
+{
+ "x": 70.177,
+"y": 2.7566,
+"z": 2.7e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Limitless</th></tr><tr><td><img src='http://instart0.flixster.com/movie/11/15/61/11156184_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   571 %<br>Critics score: 70<br>Audience score: 73<br>Budget: $27 million<br>Worldwide gross: $  154'158'617<br>Genres: Mystery & Suspense<br>&emsp;Science Fiction & Fantasy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/limitless/",
+"category": "Fresh",
+"budget": 2.7e+07 
+},
+{
+ "x": 70.125,
+"y": 2.4174,
+"z": 2.4e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Footloose</th></tr><tr><td><img src='http://instart1.flixster.com/movie/11/16/89/11168941_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   262 %<br>Critics score: 70<br>Audience score: 62<br>Budget: $24 million<br>Worldwide gross: $   62'767'532<br>Genres: Drama<br>&emsp;Musical & Performing Arts<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/footloose-2010/",
+"category": "Fresh",
+"budget": 2.4e+07 
+},
+{
+ "x": 60.116,
+"y": 1.3782,
+"z": 2.1e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>The Beaver</th></tr><tr><td><img src='http://content7.flixster.com/movie/11/15/44/11154481_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:    24 %<br>Critics score: 60<br>Audience score: 55<br>Budget: $21 million<br>Worldwide gross: $    5'046'038<br>Genres: Drama<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/the_beaver_2010/",
+"category": "Fresh",
+"budget": 2.1e+07 
+} 
+],
+"type": "bubble",
+"name": "Fresh" 
+},
+{
+ "data": [
+ {
+ "x": 50.911,
+"y": 1.9288,
+"z":  3e+08,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>John Carter</th></tr><tr><td><img src='http://instart0.flixster.com/movie/11/16/39/11163924_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:    85 %<br>Critics score: 51<br>Audience score: 60<br>Budget: $300 million<br>Worldwide gross: $  254'439'100<br>Genres: Action & Adventure<br>&emsp;Horror<br>&emsp;Kids & Family<br>&emsp;Science Fiction & Fantasy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/john_carter/",
+"category": "Rotten",
+"budget":  3e+08 
+},
+{
+ "x":     41,
+"y":  2.224,
+"z": 1.2e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>The Flowers of War</th></tr><tr><td><img src='http://content7.flixster.com/movie/11/16/30/11163069_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   168 %<br>Critics score: 41<br>Audience score: 75<br>Budget: $12 million<br>Worldwide gross: $   20'122'558<br>Genres: Drama<br>&emsp;Art House & International<br>&emsp;Special Interest</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/the_flowers_of_war/",
+"category": "Rotten",
+"budget": 1.2e+07 
+},
+{
+ "x": 28.091,
+"y": 2.8109,
+"z": 1.2e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Project X</th></tr><tr><td><img src='http://instart1.flixster.com/movie/11/16/30/11163085_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   647 %<br>Critics score: 28<br>Audience score: 61<br>Budget: $12 million<br>Worldwide gross: $   77'642'484<br>Genres: Drama<br>&emsp;Science Fiction & Fantasy<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/project_x_2011/",
+"category": "Rotten",
+"budget": 1.2e+07 
+},
+{
+ "x": 12.152,
+"y": 3.0025,
+"z": 1.2e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Pawn Shop Chronicles</th></tr><tr><td><img src='http://instart0.flixster.com/movie/11/17/18/11171852_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:  1006 %<br>Critics score: 12<br>Audience score: 42<br>Budget: $12 million<br>Worldwide gross: $  120'674'611<br>Genres: Action & Adventure<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/pawn_shop_chronicles/",
+"category": "Rotten",
+"budget": 1.2e+07 
+},
+{
+ "x": 36.018,
+"y":  1.536,
+"z":  8e+06,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Restless</th></tr><tr><td><img src='http://content7.flixster.com/movie/11/15/85/11158577_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:    34 %<br>Critics score: 36<br>Audience score: 50<br>Budget: $8 million<br>Worldwide gross: $    2'749'614<br>Genres: Drama</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/restless_2010/",
+"category": "Rotten",
+"budget":  8e+06 
+},
+{
+ "x": 25.112,
+"y":  1.882,
+"z": 1.5e+08,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Wrath of the Titans</th></tr><tr><td><img src='http://content7.flixster.com/movie/11/16/71/11167121_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:    76 %<br>Critics score: 25<br>Audience score: 49<br>Budget: $150 million<br>Worldwide gross: $  114'030'512<br>Genres: Action & Adventure<br>&emsp;Science Fiction & Fantasy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/clash_of_the_titans_2/",
+"category": "Rotten",
+"budget": 1.5e+08 
+},
+{
+ "x": 35.962,
+"y": 2.1087,
+"z":  8e+06,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Prom</th></tr><tr><td><img src='http://instart2.flixster.com/movie/11/15/46/11154634_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   128 %<br>Critics score: 36<br>Audience score: 39<br>Budget: $8 million<br>Worldwide gross: $   10'266'538<br>Genres: Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/prom_2011/",
+"category": "Rotten",
+"budget":  8e+06 
+},
+{
+ "x": 55.927,
+"y": 2.7365,
+"z":  7e+06,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Jumping the Broom</th></tr><tr><td><img src='http://instart2.flixster.com/movie/11/15/65/11156590_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   545 %<br>Critics score: 56<br>Audience score: 59<br>Budget: $7 million<br>Worldwide gross: $   38'158'601<br>Genres: Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/jumping_the_broom/",
+"category": "Rotten",
+"budget":  7e+06 
+},
+{
+ "x": 21.151,
+"y": 2.2772,
+"z":  6e+06,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Snow Flower And The Secret Fan</th></tr><tr><td><img src='http://content7.flixster.com/movie/11/15/63/11156305_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   189 %<br>Critics score: 21<br>Audience score: 48<br>Budget: $6 million<br>Worldwide gross: $   11'348'205<br>Genres: Art House & International<br>&emsp;Drama</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/snow_flower_and_the_secret_fan/",
+"category": "Rotten",
+"budget":  6e+06 
+},
+{
+ "x": 53.989,
+"y": 2.5808,
+"z": 5.7e+06,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>The Inbetweeners</th></tr><tr><td><img src='http://content8.flixster.com/movie/11/16/61/11166110_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   381 %<br>Critics score: 54<br>Audience score: 73<br>Budget: $5.7 million<br>Worldwide gross: $   21'715'097<br>Genres: Art House & International<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/the_inbetweeners/",
+"category": "Rotten",
+"budget": 5.7e+06 
+},
+{
+ "x": 24.011,
+"y":  2.709,
+"z":  5e+06,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Apollo 18</th></tr><tr><td><img src='http://instart2.flixster.com/movie/11/15/92/11159258_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   512 %<br>Critics score: 24<br>Audience score: 23<br>Budget: $5 million<br>Worldwide gross: $   25'586'929<br>Genres: Science Fiction & Fantasy<br>&emsp;Horror</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/apollo_18/",
+"category": "Rotten",
+"budget":  5e+06 
+},
+{
+ "x": 30.039,
+"y": 3.2425,
+"z":  2e+06,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Courageous</th></tr><tr><td><img src='http://instart3.flixster.com/movie/11/16/36/11163651_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:  1748 %<br>Critics score: 30<br>Audience score: 86<br>Budget: $2 million<br>Worldwide gross: $   34'956'864<br>Genres: Drama<br>&emsp;Faith & Spirituality</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/courageous/",
+"category": "Rotten",
+"budget":  2e+06 
+},
+{
+ "x": 5.9884,
+"y": 3.9985,
+"z":  1e+06,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>The Devil Inside</th></tr><tr><td><img src='http://instart0.flixster.com/movie/11/16/89/11168932_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:  9966 %<br>Critics score: 6<br>Audience score: 22<br>Budget: $1 million<br>Worldwide gross: $   99'661'944<br>Genres: Horror</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/the_devil_inside/",
+"category": "Rotten",
+"budget":  1e+06 
+},
+{
+ "x":  44.94,
+"y": 1.9466,
+"z": 1.35e+08,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Happy Feet Two</th></tr><tr><td><img src='http://content7.flixster.com/movie/11/16/40/11164013_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:    89 %<br>Critics score: 45<br>Audience score: 61<br>Budget: $135 million<br>Worldwide gross: $  119'606'466<br>Genres: Animation<br>&emsp;Kids & Family<br>&emsp;Art House & International</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/happy_feet_two/",
+"category": "Rotten",
+"budget": 1.35e+08 
+},
+{
+ "x": 24.111,
+"y": 2.7411,
+"z": 1.275e+08,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Twilight Saga: Breaking Dawn Part 1</th></tr><tr><td><img src='http://instart2.flixster.com/movie/11/16/04/11160422_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   551 %<br>Critics score: 24<br>Audience score: 60<br>Budget: $127.5 million<br>Worldwide gross: $  702'287'133<br>Genres: Romance<br>&emsp;Mystery & Suspense<br>&emsp;Science Fiction & Fantasy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/twilight_saga_breaking_dawn/",
+"category": "Rotten",
+"budget": 1.275e+08 
+},
+{
+ "x": 32.862,
+"y": 2.6207,
+"z": 2.5e+08,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Pirates of the Caribbean: On Stranger Tides</th></tr><tr><td><img src='http://content6.flixster.com/movie/11/15/67/11156760_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   417 %<br>Critics score: 33<br>Audience score: 58<br>Budget: $250 million<br>Worldwide gross: $1'043'663'875<br>Genres: Action & Adventure<br>&emsp;Science Fiction & Fantasy<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/pirates_of_the_caribbean_on_stranger_tides/",
+"category": "Rotten",
+"budget": 2.5e+08 
+},
+{
+ "x": 22.016,
+"y": 2.7086,
+"z": 1.1e+08,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>The Smurfs</th></tr><tr><td><img src='http://instart1.flixster.com/movie/11/16/36/11163657_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   511 %<br>Critics score: 22<br>Audience score: 45<br>Budget: $110 million<br>Worldwide gross: $  562'474'610<br>Genres: Action & Adventure<br>&emsp;Animation<br>&emsp;Kids & Family<br>&emsp;Science Fiction & Fantasy<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/the_smurfs/",
+"category": "Rotten",
+"budget": 1.1e+08 
+},
+{
+ "x": 43.865,
+"y": 2.3162,
+"z": 1.1e+08,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>The Green Hornet</th></tr><tr><td><img src='http://content9.flixster.com/movie/11/16/94/11169463_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   207 %<br>Critics score: 44<br>Audience score: 44<br>Budget: $110 million<br>Worldwide gross: $  227'983'150<br>Genres: Action & Adventure<br>&emsp;Science Fiction & Fantasy<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/green_hornet/",
+"category": "Rotten",
+"budget": 1.1e+08 
+},
+{
+ "x": 40.855,
+"y": 1.9216,
+"z":  1e+08,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>The Flowers of War</th></tr><tr><td><img src='http://content7.flixster.com/movie/11/16/30/11163069_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:    83 %<br>Critics score: 41<br>Audience score: 75<br>Budget: $100 million<br>Worldwide gross: $   83'289'945<br>Genres: Drama<br>&emsp;Art House & International<br>&emsp;Special Interest</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/the_flowers_of_war/",
+"category": "Rotten",
+"budget":  1e+08 
+},
+{
+ "x":  24.11,
+"y": 2.1919,
+"z":  9e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>The Three Musketeers</th></tr><tr><td><img src='http://instart3.flixster.com/movie/11/15/80/11158075_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   155 %<br>Critics score: 24<br>Audience score: 40<br>Budget: $90 million<br>Worldwide gross: $  139'877'913<br>Genres: Action & Adventure<br>&emsp;Romance</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/the_three_musketeers_2011/",
+"category": "Rotten",
+"budget":  9e+07 
+},
+{
+ "x": 39.174,
+"y": 2.4468,
+"z":  2e+08,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Cars 2</th></tr><tr><td><img src='http://content9.flixster.com/movie/11/15/64/11156447_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   280 %<br>Critics score: 39<br>Audience score: 52<br>Budget: $200 million<br>Worldwide gross: $  559'850'875<br>Genres: Action & Adventure<br>&emsp;Animation<br>&emsp;Kids & Family<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/cars_2/",
+"category": "Rotten",
+"budget":  2e+08 
+},
+{
+ "x":  24.19,
+"y": 1.8476,
+"z":  9e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Conan the Barbarian</th></tr><tr><td><img src='http://content9.flixster.com/movie/11/15/74/11157475_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:    70 %<br>Critics score: 24<br>Audience score: 31<br>Budget: $90 million<br>Worldwide gross: $   63'356'133<br>Genres: Action & Adventure<br>&emsp;Science Fiction & Fantasy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/conan_the_barbarian_2011/",
+"category": "Rotten",
+"budget":  9e+07 
+},
+{
+ "x": 22.803,
+"y": 2.0786,
+"z": 7.5e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Sucker Punch</th></tr><tr><td><img src='http://content6.flixster.com/movie/11/16/67/11166716_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   120 %<br>Critics score: 23<br>Audience score: 46<br>Budget: $75 million<br>Worldwide gross: $   89'758'389<br>Genres: Action & Adventure<br>&emsp;Mystery & Suspense<br>&emsp;Science Fiction & Fantasy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/sucker-punch-2010/",
+"category": "Rotten",
+"budget": 7.5e+07 
+},
+{
+ "x": 35.091,
+"y": 2.4465,
+"z": 7.5e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Immortals</th></tr><tr><td><img src='http://instart1.flixster.com/movie/11/15/89/11158957_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   280 %<br>Critics score: 35<br>Audience score: 48<br>Budget: $75 million<br>Worldwide gross: $  209'788'735<br>Genres: Classics<br>&emsp;Action & Adventure</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/immortals_2011/",
+"category": "Rotten",
+"budget": 7.5e+07 
+},
+{
+ "x":  24.16,
+"y": 2.0033,
+"z":  7e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>The Dilemma</th></tr><tr><td><img src='http://instart3.flixster.com/movie/11/15/50/11155059_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   101 %<br>Critics score: 24<br>Audience score: 31<br>Budget: $70 million<br>Worldwide gross: $   70'546'865<br>Genres: Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/the_dilemma/",
+"category": "Rotten",
+"budget":  7e+07 
+},
+{
+ "x": 26.057,
+"y": 2.3378,
+"z":  7e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Underworld Awakening</th></tr><tr><td><img src='http://instart0.flixster.com/movie/11/16/52/11165264_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   218 %<br>Critics score: 26<br>Audience score: 62<br>Budget: $70 million<br>Worldwide gross: $  152'492'405<br>Genres: Action & Adventure<br>&emsp;Horror<br>&emsp;Science Fiction & Fantasy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/underworld_awakening/",
+"category": "Rotten",
+"budget":  7e+07 
+},
+{
+ "x": 24.824,
+"y": 1.7167,
+"z":  7e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Killer Elite</th></tr><tr><td><img src='http://instart1.flixster.com/movie/11/16/36/11163645_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:    52 %<br>Critics score: 25<br>Audience score: 43<br>Budget: $70 million<br>Worldwide gross: $   36'488'231<br>Genres: Mystery & Suspense<br>&emsp;Action & Adventure</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/killer_elite_2011/",
+"category": "Rotten",
+"budget":  7e+07 
+},
+{
+ "x": 35.003,
+"y": 2.4812,
+"z":  7e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Battle: Los Angeles</th></tr><tr><td><img src='http://instart3.flixster.com/movie/11/17/10/11171071_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   303 %<br>Critics score: 35<br>Audience score: 47<br>Budget: $70 million<br>Worldwide gross: $  212'005'201<br>Genres: Action & Adventure<br>&emsp;Science Fiction & Fantasy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/battle-los-angeles/",
+"category": "Rotten",
+"budget":  7e+07 
+},
+{
+ "x": 25.814,
+"y": 2.0453,
+"z":  2e+08,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Green Lantern</th></tr><tr><td><img src='http://instart1.flixster.com/movie/11/16/36/11163669_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   111 %<br>Critics score: 26<br>Audience score: 45<br>Budget: $200 million<br>Worldwide gross: $  222'001'172<br>Genres: Action & Adventure<br>&emsp;Science Fiction & Fantasy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/770677993/",
+"category": "Rotten",
+"budget":  2e+08 
+},
+{
+ "x": 53.857,
+"y": 2.5276,
+"z": 6.75e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Dr Seuss' The Lorax</th></tr><tr><td><img src='http://content9.flixster.com/movie/11/16/74/11167427_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   337 %<br>Critics score: 54<br>Audience score: 64<br>Budget: $67.5 million<br>Worldwide gross: $  227'533'010<br>Genres: Animation<br>&emsp;Kids & Family</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/the_lorax/",
+"category": "Rotten",
+"budget": 6.75e+07 
+},
+{
+ "x": 24.803,
+"y": 2.4742,
+"z": 6.3e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Hop</th></tr><tr><td><img src='http://instart0.flixster.com/movie/11/16/37/11163776_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   298 %<br>Critics score: 25<br>Audience score: 53<br>Budget: $63 million<br>Worldwide gross: $  187'726'914<br>Genres: Comedy<br>&emsp;Kids & Family</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/hop_2011/",
+"category": "Rotten",
+"budget": 6.3e+07 
+},
+{
+ "x": 16.163,
+"y": 2.1351,
+"z":  6e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Priest</th></tr><tr><td><img src='http://instart2.flixster.com/movie/11/15/63/11156350_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   136 %<br>Critics score: 16<br>Audience score: 45<br>Budget: $60 million<br>Worldwide gross: $   81'885'439<br>Genres: Western<br>&emsp;Action & Adventure<br>&emsp;Horror<br>&emsp;Mystery & Suspense<br>&emsp;Science Fiction & Fantasy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/10009274-priest/",
+"category": "Rotten",
+"budget":  6e+07 
+},
+{
+ "x":  47.85,
+"y": 2.5374,
+"z": 5.5e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Mr. Popper's Penguins</th></tr><tr><td><img src='http://content7.flixster.com/movie/11/15/71/11157101_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   345 %<br>Critics score: 48<br>Audience score: 54<br>Budget: $55 million<br>Worldwide gross: $  189'624'452<br>Genres: Comedy<br>&emsp;Kids & Family</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/mr_poppers_penguins_2010/",
+"category": "Rotten",
+"budget": 5.5e+07 
+},
+{
+ "x": 25.083,
+"y":  2.163,
+"z": 5.2e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>The Change-Up</th></tr><tr><td><img src='http://instart2.flixster.com/movie/11/15/72/11157218_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   145 %<br>Critics score: 25<br>Audience score: 48<br>Budget: $52 million<br>Worldwide gross: $   75'658'036<br>Genres: Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/the_change_up/",
+"category": "Rotten",
+"budget": 5.2e+07 
+},
+{
+ "x": 44.807,
+"y": 1.9129,
+"z":  5e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Drive Angry</th></tr><tr><td><img src='http://content6.flixster.com/movie/11/17/07/11170792_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:    82 %<br>Critics score: 45<br>Audience score: 37<br>Budget: $50 million<br>Worldwide gross: $   40'886'464<br>Genres: Mystery & Suspense<br>&emsp;Action & Adventure</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/drive-angry/",
+"category": "Rotten",
+"budget":  5e+07 
+},
+{
+ "x":  39.13,
+"y": 2.5631,
+"z": 4.5e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Johnny English Reborn</th></tr><tr><td><img src='http://content6.flixster.com/movie/11/16/37/11163780_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   366 %<br>Critics score: 39<br>Audience score: 45<br>Budget: $45 million<br>Worldwide gross: $  164'539'660<br>Genres: Mystery & Suspense<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/johnny_english_reborn/",
+"category": "Rotten",
+"budget": 4.5e+07 
+},
+{
+ "x": 36.166,
+"y": 2.7606,
+"z": 1.95e+08,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Transformers: Dark of the Moon</th></tr><tr><td><img src='http://content8.flixster.com/movie/11/16/91/11169150_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   576 %<br>Critics score: 36<br>Audience score: 61<br>Budget: $195 million<br>Worldwide gross: $1'123'745'628<br>Genres: Action & Adventure<br>&emsp;Science Fiction & Fantasy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/transformers_dark_of_the_moon/",
+"category": "Rotten",
+"budget": 1.95e+08 
+},
+{
+ "x": 53.099,
+"y": 2.1643,
+"z": 4.25e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>The Mechanic</th></tr><tr><td><img src='http://content9.flixster.com/movie/11/15/42/11154267_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   146 %<br>Critics score: 53<br>Audience score: 51<br>Budget: $42.5 million<br>Worldwide gross: $   61'980'729<br>Genres: Drama<br>&emsp;Action & Adventure<br>&emsp;Mystery & Suspense</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/mechanic/",
+"category": "Rotten",
+"budget": 4.25e+07 
+},
+{
+ "x": 26.956,
+"y": 2.2098,
+"z":  4e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Colombiana</th></tr><tr><td><img src='http://content8.flixster.com/movie/11/16/36/11163650_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   162 %<br>Critics score: 27<br>Audience score: 67<br>Budget: $40 million<br>Worldwide gross: $   64'855'375<br>Genres: Drama<br>&emsp;Action & Adventure<br>&emsp;Mystery & Suspense</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/colombiana/",
+"category": "Rotten",
+"budget":  4e+07 
+},
+{
+ "x": 10.006,
+"y": 2.3694,
+"z":  4e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Season of the Witch</th></tr><tr><td><img src='http://content6.flixster.com/movie/11/15/42/11154264_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   234 %<br>Critics score: 10<br>Audience score: 32<br>Budget: $40 million<br>Worldwide gross: $   93'648'493<br>Genres: Drama<br>&emsp;Action & Adventure<br>&emsp;Mystery & Suspense<br>&emsp;Science Fiction & Fantasy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/10010694-season_of_the_witch/",
+"category": "Rotten",
+"budget":  4e+07 
+},
+{
+ "x": 19.958,
+"y": 2.4143,
+"z": 3.7e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>The Rite</th></tr><tr><td><img src='http://content7.flixster.com/movie/11/15/53/11155313_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   260 %<br>Critics score: 20<br>Audience score: 41<br>Budget: $37 million<br>Worldwide gross: $   96'047'633<br>Genres: Mystery & Suspense<br>&emsp;Drama</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/the_rite/",
+"category": "Rotten",
+"budget": 3.7e+07 
+},
+{
+ "x": 10.887,
+"y": 1.0514,
+"z": 3.6e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>There Be Dragons</th></tr><tr><td><img src='http://instart0.flixster.com/movie/11/15/53/11155324_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:    11 %<br>Critics score: 11<br>Audience score: 55<br>Budget: $36 million<br>Worldwide gross: $    4'020'990<br>Genres: Drama</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/there_be_dragons/",
+"category": "Rotten",
+"budget": 3.6e+07 
+},
+{
+ "x": 44.125,
+"y": 2.0315,
+"z": 1.63e+08,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Cowboys & Aliens</th></tr><tr><td><img src='http://instart3.flixster.com/movie/11/16/36/11163635_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   107 %<br>Critics score: 44<br>Audience score: 44<br>Budget: $163 million<br>Worldwide gross: $  175'001'224<br>Genres: Western<br>&emsp;Action & Adventure<br>&emsp;Science Fiction & Fantasy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/cowboys_and_aliens/",
+"category": "Rotten",
+"budget": 1.63e+08 
+},
+{
+ "x": 35.115,
+"y":  2.663,
+"z": 3.5e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Prince of Persia: The Sands of Time</th></tr><tr><td><img src='http://content8.flixster.com/movie/11/14/56/11145654_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   460 %<br>Critics score: 35<br>Audience score: 62<br>Budget: $35 million<br>Worldwide gross: $  161'153'932<br>Genres: Action & Adventure<br>&emsp;Romance<br>&emsp;Science Fiction & Fantasy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/prince_of_persia_sands_of_time/",
+"category": "Rotten",
+"budget": 3.5e+07 
+},
+{
+ "x": 14.975,
+"y": 2.2697,
+"z": 3.5e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Something Borrowed</th></tr><tr><td><img src='http://instart1.flixster.com/movie/11/17/00/11170061_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   186 %<br>Critics score: 15<br>Audience score: 48<br>Budget: $35 million<br>Worldwide gross: $   65'084'116<br>Genres: Drama<br>&emsp;Romance<br>&emsp;Science Fiction & Fantasy<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/something_borrowed_2011/",
+"category": "Rotten",
+"budget": 3.5e+07 
+},
+{
+ "x": 4.0387,
+"y":   2.37,
+"z": 3.5e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Abduction</th></tr><tr><td><img src='http://content9.flixster.com/movie/11/15/94/11159415_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   235 %<br>Critics score: 4<br>Audience score: 42<br>Budget: $35 million<br>Worldwide gross: $   82'087'155<br>Genres: Mystery & Suspense<br>&emsp;Action & Adventure</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/abduction_2011/",
+"category": "Rotten",
+"budget": 3.5e+07 
+},
+{
+ "x": 12.135,
+"y": 2.2332,
+"z": 3.48e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>The Darkest Hour</th></tr><tr><td><img src='http://content7.flixster.com/movie/11/16/13/11161345_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   171 %<br>Critics score: 12<br>Audience score: 25<br>Budget: $34.8 million<br>Worldwide gross: $   59'515'589<br>Genres: Action & Adventure<br>&emsp;Horror<br>&emsp;Mystery & Suspense<br>&emsp;Science Fiction & Fantasy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/the_darkest_hour/",
+"category": "Rotten",
+"budget": 3.48e+07 
+},
+{
+ "x": 58.961,
+"y": 1.7498,
+"z": 3.25e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Wanderlust</th></tr><tr><td><img src='http://instart0.flixster.com/movie/11/16/38/11163800_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:    56 %<br>Critics score: 59<br>Audience score: 40<br>Budget: $32.5 million<br>Worldwide gross: $   18'306'639<br>Genres: Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/wanderlust_2011/",
+"category": "Rotten",
+"budget": 3.25e+07 
+},
+{
+ "x": 11.137,
+"y": 1.7506,
+"z":  3e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Hoodwinked Too! Hood vs Evil</th></tr><tr><td><img src='http://instart3.flixster.com/movie/11/15/68/11156811_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:    56 %<br>Critics score: 11<br>Audience score: 35<br>Budget: $30 million<br>Worldwide gross: $   16'932'317<br>Genres: Animation<br>&emsp;Kids & Family<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/hoodwinked_too_hood_vs_evil/",
+"category": "Rotten",
+"budget":  3e+07 
+},
+{
+ "x": 45.108,
+"y": 2.1638,
+"z": 2.8e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>30 Minutes or Less</th></tr><tr><td><img src='http://content9.flixster.com/movie/11/16/95/11169563_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   146 %<br>Critics score: 45<br>Audience score: 41<br>Budget: $28 million<br>Worldwide gross: $   40'883'587<br>Genres: Action & Adventure<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/30_minutes_or_less/",
+"category": "Rotten",
+"budget": 2.8e+07 
+},
+{
+ "x": 47.101,
+"y":  1.755,
+"z": 2.75e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Anonymous</th></tr><tr><td><img src='http://instart0.flixster.com/movie/11/15/84/11158480_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:    57 %<br>Critics score: 47<br>Audience score: 53<br>Budget: $27.5 million<br>Worldwide gross: $   15'685'544<br>Genres: Art House & International<br>&emsp;Drama</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/anonymous_2011/",
+"category": "Rotten",
+"budget": 2.75e+07 
+},
+{
+ "x": 23.155,
+"y": 2.4041,
+"z": 2.7e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Spy Kids: All the Time in the World in 4D</th></tr><tr><td><img src='http://instart1.flixster.com/movie/11/15/83/11158341_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   254 %<br>Critics score: 23<br>Audience score: 38<br>Budget: $27 million<br>Worldwide gross: $   68'493'130<br>Genres: Action & Adventure<br>&emsp;Kids & Family<br>&emsp;Mystery & Suspense<br>&emsp;Science Fiction & Fantasy<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/spy_kids_all_the_time_in_the_world_in_4d/",
+"category": "Rotten",
+"budget": 2.7e+07 
+},
+{
+ "x": 6.9871,
+"y": 2.7374,
+"z": 2.6e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>New Year's Eve</th></tr><tr><td><img src='http://content9.flixster.com/movie/11/16/43/11164343_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   546 %<br>Critics score: 7<br>Audience score: 45<br>Budget: $26 million<br>Worldwide gross: $  142'044'638<br>Genres: Comedy<br>&emsp;Romance</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/new_years_eve_2011/",
+"category": "Rotten",
+"budget": 2.6e+07 
+},
+{
+ "x": 48.041,
+"y": 2.7758,
+"z": 2.5e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>No Strings Attached</th></tr><tr><td><img src='http://instart0.flixster.com/movie/11/15/50/11155044_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   597 %<br>Critics score: 48<br>Audience score: 53<br>Budget: $25 million<br>Worldwide gross: $  149'228'078<br>Genres: Television<br>&emsp;Romance<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/no_strings_attached_2011/",
+"category": "Rotten",
+"budget": 2.5e+07 
+},
+{
+ "x": 57.965,
+"y": 2.1009,
+"z": 2.5e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Don't Be Afraid Of The Dark</th></tr><tr><td><img src='http://instart0.flixster.com/movie/11/16/36/11163652_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   126 %<br>Critics score: 58<br>Audience score: 34<br>Budget: $25 million<br>Worldwide gross: $   31'529'983<br>Genres: Mystery & Suspense<br>&emsp;Horror</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/dont_be_afraid_of_the_dark_2011/",
+"category": "Rotten",
+"budget": 2.5e+07 
+},
+{
+ "x": 51.037,
+"y": 2.5716,
+"z": 2.5e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Contraband</th></tr><tr><td><img src='http://instart1.flixster.com/movie/11/16/51/11165161_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   373 %<br>Critics score: 51<br>Audience score: 57<br>Budget: $25 million<br>Worldwide gross: $   93'228'000<br>Genres: Mystery & Suspense<br>&emsp;Action & Adventure</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/contraband_2012/",
+"category": "Rotten",
+"budget": 2.5e+07 
+},
+{
+ "x": 55.001,
+"y": 1.7859,
+"z": 2.5e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>The Conspirator</th></tr><tr><td><img src='http://instart2.flixster.com/movie/11/15/57/11155718_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:    61 %<br>Critics score: 55<br>Audience score: 63<br>Budget: $25 million<br>Worldwide gross: $   15'245'627<br>Genres: Drama</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/the_conspirator/",
+"category": "Rotten",
+"budget": 2.5e+07 
+},
+{
+ "x": 16.061,
+"y": 2.0908,
+"z": 2.5e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Shark Night 3D</th></tr><tr><td><img src='http://content8.flixster.com/movie/11/15/80/11158098_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   123 %<br>Critics score: 16<br>Audience score: 22<br>Budget: $25 million<br>Worldwide gross: $   30'831'626<br>Genres: Mystery & Suspense<br>&emsp;Horror</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/shark_night_3d/",
+"category": "Rotten",
+"budget": 2.5e+07 
+},
+{
+ "x": 7.9188,
+"y": 1.4553,
+"z":  2e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Dylan Dog: Dead of Night</th></tr><tr><td><img src='http://content9.flixster.com/movie/11/15/63/11156335_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:    28 %<br>Critics score: 8<br>Audience score: 30<br>Budget: $20 million<br>Worldwide gross: $    5'686'538<br>Genres: Mystery & Suspense<br>&emsp;Horror</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/dead-of-night-2009/",
+"category": "Rotten",
+"budget":  2e+07 
+},
+{
+ "x": 22.926,
+"y": 2.1861,
+"z":  2e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>What's Your Number?</th></tr><tr><td><img src='http://instart1.flixster.com/movie/11/15/75/11157593_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   154 %<br>Critics score: 23<br>Audience score: 44<br>Budget: $20 million<br>Worldwide gross: $   30'711'084<br>Genres: Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/whats_your_number/",
+"category": "Rotten",
+"budget":  2e+07 
+},
+{
+ "x": 37.088,
+"y": 1.4183,
+"z": 1.5e+08,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Mars Needs Moms</th></tr><tr><td><img src='http://instart0.flixster.com/movie/11/15/37/11153700_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:    26 %<br>Critics score: 37<br>Audience score: 43<br>Budget: $150 million<br>Worldwide gross: $   39'549'758<br>Genres: Action & Adventure<br>&emsp;Animation<br>&emsp;Science Fiction & Fantasy<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/mars_needs_moms/",
+"category": "Rotten",
+"budget": 1.5e+08 
+},
+{
+ "x": 52.132,
+"y": 1.1012,
+"z": 1.91e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>The Devil's Double</th></tr><tr><td><img src='http://content8.flixster.com/movie/11/15/70/11157034_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:    13 %<br>Critics score: 52<br>Audience score: 65<br>Budget: $19.1 million<br>Worldwide gross: $    2'406'666<br>Genres: Drama<br>&emsp;Action & Adventure<br>&emsp;Mystery & Suspense</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/the_devils_double/",
+"category": "Rotten",
+"budget": 1.91e+07 
+},
+{
+ "x": 43.838,
+"y": 3.0566,
+"z": 1.9e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Bad Teacher</th></tr><tr><td><img src='http://instart2.flixster.com/movie/11/15/61/11156194_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:  1139 %<br>Critics score: 44<br>Audience score: 36<br>Budget: $19 million<br>Worldwide gross: $  216'412'265<br>Genres: Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/bad_teacher/",
+"category": "Rotten",
+"budget": 1.9e+07 
+},
+{
+ "x": 45.947,
+"y": 2.3938,
+"z": 1.8e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Soul Surfer</th></tr><tr><td><img src='http://instart2.flixster.com/movie/11/15/57/11155754_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   248 %<br>Critics score: 46<br>Audience score: 77<br>Budget: $18 million<br>Worldwide gross: $   44'578'670<br>Genres: Drama<br>&emsp;Action & Adventure<br>&emsp;Sports & Fitness</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/soul_surfer/",
+"category": "Rotten",
+"budget": 1.8e+07 
+},
+{
+ "x": 46.808,
+"y": 2.5872,
+"z": 1.8e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Diary of a Wimpy Kid 2: Rodrick Rules</th></tr><tr><td><img src='http://instart0.flixster.com/movie/11/15/56/11155600_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   386 %<br>Critics score: 47<br>Audience score: 62<br>Budget: $18 million<br>Worldwide gross: $   69'543'178<br>Genres: Drama<br>&emsp;Kids & Family<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/diary_of_a_wimpy_kid_2_rodrick_rules/",
+"category": "Rotten",
+"budget": 1.8e+07 
+},
+{
+ "x": 20.896,
+"y": 2.3493,
+"z": 1.7e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>Beastly</th></tr><tr><td><img src='http://content6.flixster.com/movie/11/15/58/11155888_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   224 %<br>Critics score: 21<br>Audience score: 48<br>Budget: $17 million<br>Worldwide gross: $   38'028'230<br>Genres: Drama<br>&emsp;Romance<br>&emsp;Science Fiction & Fantasy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/beastly/",
+"category": "Rotten",
+"budget": 1.7e+07 
+},
+{
+ "x": 4.1533,
+"y": 2.4032,
+"z": 1.6e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>The Roommate</th></tr><tr><td><img src='http://content7.flixster.com/movie/11/15/54/11155441_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   253 %<br>Critics score: 4<br>Audience score: 29<br>Budget: $16 million<br>Worldwide gross: $   40'497'461<br>Genres: Mystery & Suspense<br>&emsp;Horror</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/the_roommate/",
+"category": "Rotten",
+"budget": 1.6e+07 
+},
+{
+ "x": 35.973,
+"y": 2.4558,
+"z": 1.5e+07,
+"name": "<table cellpadding='4' style='line-height:1.5'><tr><th colspan='3'>One Day</th></tr><tr><td><img src='http://instart0.flixster.com/movie/11/15/57/11155740_mob.jpg' height='99' width='65'></td><td align='left'>Profitability:   286 %<br>Critics score: 36<br>Audience score: 49<br>Budget: $15 million<br>Worldwide gross: $   42'843'771<br>Genres: Drama<br>&emsp;Romance<br>&emsp;Comedy</td></tr></table>",
+"url": "http://www.rottentomatoes.com/m/771206468/",
+"category": "Rotten",
+"budget": 1.5e+07 
+} 
+],
+"type": "bubble",
+"name": "Rotten" 
+} 
+],
+"plotOptions": {
+ "bubble": {
+ "cursor": "pointer",
+"minSize":      4,
+"maxSize":     30,
+"point": {
+ "events": {
+ "click":  function() { window.open(this.options.url); }  
+} 
+} 
+} 
+},
+"xAxis": {
+ "title": {
+ "text": "Rotten Tomatoes Critics Score" 
+},
+"labels": {
+ "format": "{value}%" 
+} 
+},
+"tooltip": {
+ "useHTML": true,
+"formatter":  function() { return this.point.name; }  
+},
+"legend": {
+ "title": {
+ "text": "Select group(s) of movies" 
+} 
+},
+"subtitle": {
+ "text": "The 'profitability' is the % of budget recovered. Circle size is proportional to film budget" 
+},
+"id": "chart98fcf98663d",
+"chart": {
+ "renderTo": "chart98fcf98663d" 
+} 
+});
+        });
+    })(jQuery);
+</script>
+    
+  </body>
+</html>
